@@ -1,0 +1,8 @@
+USING MULTIPLE DATABASE CONNECTIONS:
+
+	1. use default connect - reserve
+		$this->some_model->get();
+
+	2. use another database i.e., property
+		$this->some_model->set_db('DB2');
+		$this->some_model->get();
